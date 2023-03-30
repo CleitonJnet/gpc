@@ -1,0 +1,81 @@
+body {
+    background-image: url("../img/building-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {padding: 30px;}
+
+main .content {
+    background-color: rgba(255, 255, 255, .95);
+    box-shadow: 0 0 15px 0 #193F60;
+    padding: 80px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cecece;
+}
+
+i {
+    text-align: center;
+    color: #5A85B1;
+    font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote {
+    text-align: center;
+}
+
+cite {
+    text-align: right;
+}
+
+.background_img {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header_session {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+.header-box {
+    background-color: rgba(255,255,255,.95);
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: max-content;
+    box-shadow: 0 0 15px 5px #000;
+}
+
+.header_session h2 {
+
+}
+

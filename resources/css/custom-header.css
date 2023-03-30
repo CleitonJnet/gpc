@@ -1,0 +1,104 @@
+header #nav-top {
+    background-color: #444;
+    line-height: 48px;
+    font-size: 12pt;
+}
+
+header #nav-top a {
+    color: var(--bright);
+}
+
+header #nav-top span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: var(--bright);
+}
+
+header .menu-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: var(--bright-90);
+    box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+    -webkit-box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+}
+
+header .menu-fixed .navbar-brand img {
+    height: 35px;
+    padding: 0 !important;
+}
+
+header .menu-fixed a.nav-link {
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .menu-fixed a.nav-link.active {
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .menu-fixed a.nav-link:hover {
+    height: 35px !important;
+    color: var(--blue-light) !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .navbar a.nav-link:hover {
+    color: var(--blue-light);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .navbar a.nav-link.active:hover {
+    color: var(--bright) !important;
+}
+
+header #menu .navbar {
+    background-color: var(--bright-90);
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+header .social-media img {
+    width: 20px;
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+header .social-media img:hover {
+    opacity: 1;
+    filter: none;
+    transition: 700ms;
+}
+
+header .navbar .navbar-brand {
+    font-size: 100%;
+    font-weight: 600;
+    padding: 0;
+}
+
+header .navbar .navbar-nav {
+    font-weight: 700;
+}
+
+header #navbarSupportedContent .dropdown-menu .dropdown-item:hover {
+    background-color: var(--blue-light)!important;
+    color: var(--bright)!important;
+}
+
+header #navbarSupportedContent .dropdown-menu .dropdown-item.active {
+    background-color: var(--blue);
+    color: var(--bright);
+}

@@ -1,0 +1,16 @@
+main #content_condominium .card {
+    width: 100%;
+    padding-top: 30px;
+    transition: ease-out 0.3s;
+    border: 1px solid var(--blue);
+    margin: 20px 0;
+}
+
+main #content_condominium .card:hover {
+    box-shadow: 0 0 10px 2px var(--blue);
+}
+
+main #content_condominium .card .card-text {
+    text-align: center;
+    min-height: 180px;
+}

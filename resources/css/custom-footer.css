@@ -1,0 +1,84 @@
+#pre-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--dark-90);
+}
+
+#pre-footer a {
+    padding-left: 10px;
+}
+
+#media-footer a img {
+    height: 30px;
+}
+
+footer {
+    background-color: var(--blue-dark-max-90);
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    padding: 30px 40px 0 40px;
+}
+
+#footer-contactus {
+    border-left: solid var(--grey) 1px;
+}
+
+#footer-contactus iframe {
+    border: var(--bright) 3px inset;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer #copyright {
+    color: var(--grey-light);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--blue-dark-max);
+    padding: 15px 20px 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+footer #copyright a {
+    color: var(--grey-light);
+}
+
+footer #copyright ul {
+    list-style: none;
+    display: flex;
+}
+
+footer #copyright ul li {
+    padding: 0 10px;
+}
+
+#whatsapp_msg {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    filter: drop-shadow(5px 5px 5px var(--dark));
+}
+
+#contact-zap {
+    background-color: var(--bright);
+    padding: 3px  5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    width: max-content;
+    transition: all ease 600ms;
+}
+

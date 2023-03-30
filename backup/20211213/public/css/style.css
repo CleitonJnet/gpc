@@ -1,0 +1,549 @@
+body {
+    background-image: url("../img/building-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {padding: 30px;}
+
+main .content {
+    background-color: rgba(255, 255, 255, .95);
+    box-shadow: 0 0 15px 0 #193F60;
+    padding: 80px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cecece;
+}
+
+i {
+    text-align: center;
+    color: #5A85B1;
+    font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote {
+    text-align: center;
+}
+
+cite {
+    text-align: right;
+}
+
+.background_img {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header_session {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+.header-box {
+    background-color: rgba(255,255,255,.95);
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: max-content;
+    box-shadow: 0 0 15px 5px #000;
+}
+
+.header_session h2 {
+
+}
+
+
+header #nav-top {
+    background-color: #444;
+    line-height: 48px;
+    font-size: 12pt;
+}
+
+header #nav-top a {
+    color: #cfcfcf;
+}
+
+header #nav-top span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #cfcfcf;
+}
+
+header .menu-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, .96);
+    box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+    -webkit-box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: -1px 7px 13px 0px rgba(0,0,0,0.73);
+}
+
+header .menu-fixed .navbar-brand img {
+    height: 35px;
+    padding: 0 !important;
+}
+
+header .menu-fixed a.nav-link {
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .menu-fixed a.nav-link.active {
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .menu-fixed a.nav-link:hover {
+    height: 35px !important;
+    color: #5182B1 !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .navbar a.nav-link:hover {
+    color: #5182B1;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header .navbar a.nav-link.active:hover {
+    color: #ffffff !important;
+}
+
+header #menu .navbar {
+    background-color: rgba(255, 255, 255, .91);
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+header .social-media img {
+    width: 20px;
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+header .social-media img:hover {
+    opacity: 1;
+    filter: none;
+    transition: 700ms;
+}
+
+header .navbar .navbar-brand {
+    font-size: 100%;
+    font-weight: 600;
+    padding: 0;
+}
+
+header .navbar .navbar-nav {
+    font-weight: 700;
+}
+
+main #index #wellcome {
+    height: 520px;
+}
+
+main #index #wellcome img {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(15px 15px 10px rgba(0,0,0,.5));
+    width: 75%;
+}
+
+main #index #wellcome h2 {
+    text-align: left;
+    text-transform: initial;
+    color: #fff;
+    font-size: 2.45rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
+main #index #wellcome h4 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: left;
+    text-transform: initial;
+    text-shadow: 1px 1px 2px #000;
+}
+
+main #index #properties h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+main #index #properties h2 strong {
+    color: #5A85B1;
+    font-weight: 700;
+}
+
+main #index #properties h2 em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+main #index #properties h4 {
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/*main #index #properties i {*/
+/*    color: #5A85B1;*/
+/*    font-size: 4rem;*/
+/*}*/
+
+main #index #properties .article > p {
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+main #index #properties .card {
+    width: 100%;
+    padding-top: 30px;
+    transition: ease-out 0.3s;
+    border: 1px solid #193F60;
+    margin: 20px 0;
+}
+
+main #index #properties .card:hover {
+    box-shadow: 0 0 10px 2px #193F60;
+}
+
+main #index #properties .card .card-text {
+    text-align: center;
+    min-height: 110px;
+}
+
+main #index #properties .card .card-title {
+    font-weight: 700;
+}
+
+main #index #properties .card .card-footer {
+    background-color: #193F60;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #index #property_manager .carousel-item {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: outset 3px ;
+}
+
+main #index #comments {
+    padding: 40px 60px;
+    background-color: #fff;
+    border-top: solid 1px #5A85B1;
+}
+
+main #index #comments blockquote .fa-quote-left {
+    font-size: 2.2rem;
+    margin-right: 10px;
+}
+
+main #index #comments blockquote .fa-quote-right {
+    font-size: 1.9rem;
+    margin-left: 10px;
+}
+
+main #index #comments blockquote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+main #index #comments #comment-header {
+    text-align: center;
+}
+
+main #index #comments #comment-header i {
+    color: #cecece;
+    font-size: 16px;
+}
+
+main #index #comments #comment-header::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 1.5px;
+    background-color: #cecece;
+    margin-right: 10px;
+}
+
+main #index #comments #comment-header::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 1.5px;
+    background-color: #cecece;
+    margin-left: 10px;
+}
+
+main #index .author {
+    color: #393939;
+    display: block;
+    margin-right: 0
+}
+
+main #index .author::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    background-color: #393939;
+}
+
+main #content_sale #properties .card {
+    width: 100%;
+    padding-top: 30px;
+    transition: ease-out 0.3s;
+    border: 1px solid #193F60;
+    margin: 20px 0;
+}
+
+main #content_sale #properties .card:hover {
+    box-shadow: 0 0 10px 2px #193F60;
+}
+
+main #content_sale #properties .card .card-text {
+    text-align: center;
+    min-height: 180px;
+}
+
+main #content_condominium .card {
+    width: 100%;
+    padding-top: 30px;
+    transition: ease-out 0.3s;
+    border: 1px solid #193F60;
+    margin: 20px 0;
+}
+
+main #content_condominium .card:hover {
+    box-shadow: 0 0 10px 2px #193F60;
+}
+
+main #content_condominium .card .card-text {
+    text-align: center;
+    min-height: 180px;
+}
+
+#pre-footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, .95);
+}
+
+#pre-footer a {
+    padding-left: 10px;
+}
+
+#media-footer a img {
+    height: 30px;
+}
+
+footer {
+    background-color: rgba(2, 14, 24, .96);
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    padding: 30px 40px 0 40px;
+}
+
+#footer-contactus {
+    border-left: solid rgba(73, 73, 73, .5) 1px;
+}
+
+#footer-contactus iframe {
+    border: #fff 3px inset;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer #copyright {
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #020e18;
+    padding: 15px 20px 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+footer #copyright a {
+    color: #bbb;
+}
+
+footer #copyright ul {
+    list-style: none;
+    display: flex;
+}
+
+footer #copyright ul li {
+    padding: 0 10px;
+}
+
+#whatsapp_msg {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+#contact-zap {
+    background-color: #fff;
+    padding: 3px  5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    width: max-content;
+    transition: all ease 600ms;
+}
+
+
+@media (min-width: 991px) {
+    header .navbar a.nav-link {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    header .navbar a.nav-link.active {
+        background-color: #5182B1;
+        color: #fff !important;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    header .navbar a.nav-link:hover {
+        color: #5182B1 !important;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 1999px) {
+    section#wellcome h2 {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    section#wellcome h2 {
+        font-size: 35px;
+    }
+
+    section#main {
+        padding: 7px;
+    }    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 35px;
+    }
+    
+    .navbar-brand-title {
+        display: none !important;
+    }
+
+    section#wellcome h2 {
+        font-size: 25px;
+    }
+
+    section#wellcome h4 {
+        font-size: 15px;
+    }
+
+    #comments #comment-header::before {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 1.5px;
+        background-color: #cecece;
+        margin-right: 10px;
+    }
+    
+    #comments #comment-header::after {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 1.5px;
+        background-color: #cecece;
+        margin-left: 10px;
+    }
+    
+
+}
